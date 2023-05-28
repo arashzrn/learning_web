@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Vazir-medium;
+    src: url(../font/Vazir-Medium-FD.eot);
+    src: url(../font/Vazir-Medium.woff);
+    src: url(../font/Vazir-Medium.woff2);
+
+
+}
+* {
+    direction: rtl;
+    font-family: Vazir-medium;
+}
+body {
+    background: rgb(236,64,106);
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    direction: rtl;
+    width: 50%;
+    color: white;
+}
+.but{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    color: #ec406a;
+    background-color: white;
+}
+.fo{
+    padding: 40px 80px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.mat{
+    position: absolute;
+    left: 25%;
+}
+span{
+    transition: 0.1s all linear;
+}
+span:hover{
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.icon{
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    color: #ec406a;
+}
+.key{
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    color: #ec406a;
+
+}
